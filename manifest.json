@@ -1,0 +1,44 @@
+{
+  "name": "Minions",
+  "short_name": "Minions",
+  "description": "Minions",
+  "lang": "en-US",
+  "start_url": "index.html",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "theme_color": "#4a73b5",
+  "icons": [
+    {
+      "src": "i48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "i96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "i144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "i192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "i256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "i512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#4a73b5"
+}

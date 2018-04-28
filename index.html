@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Minions</title>
+          <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Minions">
+<meta name="apple-mobile-web-app-title" content="Minions">
+<meta name="theme-color" content="#4a73b5">
+<meta name="msapplication-navbutton-color" content="#4a73b5">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="48x48" href="i48.png">
+<link rel="apple-touch-icon" type="image/png" sizes="48x48" href="i48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="i96.png">
+<link rel="apple-touch-icon" type="image/png" sizes="96x96" href="i96.png">
+<link rel="icon" type="image/png" sizes="144x144" href="i144.png">
+<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="i144.png">
+<link rel="icon" type="image/png" sizes="192x192" href="i192.png">
+<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="i192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="i256.png">
+<link rel="apple-touch-icon" type="image/png" sizes="256x256" href="i256.png">
+<link rel="icon" type="image/png" sizes="512x512" href="i512.png">
+<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="i512.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+    </head>
+    <body>
+<div class="main">
+  <div class="minion-body">
+   <div class="goggles minion">
+     <div class="frame minion"></div>
+     <div class="left minion">
+      <div class="lense minion"></div>
+      <div class="eye-ball minion">
+          <div class="eye-pupil minion"></div>
+      </div>
+    </div>
+    
+    <div class="right minion">
+      <div class="lense minion"></div>
+      <div class="eye-ball minion">
+          <div class="eye-pupil minion"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hair minion">
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+      </div>
+      
+      
+    <div class="mouth minion">
+      <div class="mouth-shadow minion"></div>
+      <div class="teeth">
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+        <div class="tooth"></div>
+      </div>
+      <div class="tongue minion"></div>
+    </div>
+
+    <div class="arms minion">
+      <div class="left-arm minion"></div>
+      <div class="left-hand minion"></div>
+      <div class="left-glove minion">
+      <div class="gloves"></div>
+      <div class="finger l"></div>
+      <div class="finger m"></div>
+      <div class="finger r"></div>
+</div>
+      <div class="right-arm minion"></div>
+      <div class="right-hand minion"></div>
+      <div class="right-glove minion">
+      <div class="gloves"></div>
+      <div class="finger l"></div>
+      <div class="finger m"></div>
+      <div class="finger r"></div>
+</div>
+    </div>
+
+    <div class="mini minion">
+      <div class="left-strap minion"></div>
+      <div class="right-strap minion"></div>
+      <div class="mini-front minion"></div>
+      <div class="mini-pocket minion"></div>
+      <div class="mini-pocket-left minion"></div>
+      <div class="mini-pocket-right minion"></div>
+      <div class="mini-logo minion"></div>
+      <div class="mini-main minion"></div>
+    </div>
+
+    <div class="legs minion">
+      <div class="left-leg minion"></div>
+      <div class="left-foot minion"></div>
+      <div class="right-leg minion"></div>
+      <div class="right-foot minion"></div>
+    </div>
+
+  </div>
+</div>
+<button class="stuart">Stuart</button>
+<button class="kevin">Kevin</button>
+    <script>
+		if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+    </body>
+</html>
+<!--©Ranjan 2017-->
